@@ -1,0 +1,84 @@
+body{
+    margin: 3px;;
+    background-color: cornsilk;
+}
+header{
+    background-color: gold;
+    padding: 20px;
+    text-align: center;
+    color: mediumblue;
+    font-family:"comic sans ms",arial;
+    
+}
+nav{
+    color:blue;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+nav a{
+    float: left;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:blue;
+    color: wheat;
+}
+.column{
+    float: left;
+    padding:10px
+}
+
+.column.side{
+    width: 20%;
+}
+.column.middle{
+    width: 50%;
+}
+footer{
+    clear: both;
+    background-color:white;
+    color:red;
+    text-align: center;
+    padding: 10px;
+}
+div.personal{
+    margin: 5px;
+    border: 5px solid black;
+    width: 300px;
+    float: left;
+
+}
+div.personal:hover{
+    border: 5px solid green;
+}
+div.personal img{
+    width:100%;
+    height: auto;
+}
+div.description{
+    padding: 10px;
+    text-align: center;
+}
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border:1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: green;
+    color:white;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    margin: 2px;
+}
+@media screen and (max-width:617px)
+{
+    .column.side,.column.middle{
+        width:100%
+    }
+}
